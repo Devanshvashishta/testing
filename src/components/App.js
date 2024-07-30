@@ -8,6 +8,7 @@ import * as actions from "./../actions/index";
 class App extends Component {
   renderButton() {
     if (this.props.auth) {
+      console.log(this.props.auth);
       return (
         <button
           onClick={() => {

@@ -13,9 +13,9 @@ export function fetchComments() {
   };
 }
 
-export function changeAuth(isLoogedIn) {
+export function changeAuth(isLogedIn) {
   return {
     type: CHANGE_AUTH,
-    payload: isLoogedIn,
+    payload: isLogedIn,
   };
 }
